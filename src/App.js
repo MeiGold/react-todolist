@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import ReactDOM from "react-dom";
 
-
 let todoItems = [];
 todoItems.push({index: 0, value: "fly", done: false});
 todoItems.push({index: 1, value: "me", done: false});
