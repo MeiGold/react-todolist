@@ -123,7 +123,7 @@ class TodoControl extends React.Component{
   constructor(props){
     super(props);
     this.handleOptionChanged = this.handleOptionChanged.bind(this);
-    this.state = {selectedOption: 'all'};
+    this.state = {selectedOption: 'all '};
   }
   handleOptionChanged(event) {
     this.setState({selectedOption: event.target.value})
